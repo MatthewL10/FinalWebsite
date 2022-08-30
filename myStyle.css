@@ -67,9 +67,9 @@ a:visited {
 }
 
 .stackbottom {
-text-align: center;
-margin-right: auto;
-margin-left: auto;
+text-align: right;
+margin-right: 2%;
+
 }
 h2{
     color: white;
