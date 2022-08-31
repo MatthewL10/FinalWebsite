@@ -4,8 +4,18 @@ body{
 section#frontpage{
     background-image: url(images/longgrayt.jpg);
 }
+/* section#section2{
+
+} */
+img#float{
+  float:right;
+  margin-right: 1em;
+}
+h2#lower{
+  margin-top: 4em;
+}
 header {
-  width: 100%;
+  width: 101%;
   height: 80px;
   background-color: black;
   text-align: center;
@@ -16,6 +26,7 @@ header {
   z-index: 2;
   margin-left:-10px;
   margin-right:-10px;
+  
 }
 div.navbar {
   position: absolute;
@@ -39,8 +50,19 @@ div.nav {
   /* background-color: white; */
   z-index: 2;
 }
+p.mainpage{
+  margin-left: 20%;
+  margin-right: 20%;
+}
+p.offset{
+  text-align: left;
+  margin-left: 10%;
+}
 img#logo {
   width: fit-content;
+}
+img#float{
+  float: right;
 }
 nav:hover {
   background-color: white;
@@ -85,4 +107,53 @@ h2{
     margin-left:-10px;
     margin-right:-10px;
 }
+a.button{
+  text-decoration: none;
+  background-color: gray;
+  padding: 1vw 2vw 1vw 2vw;
+  border: 3px solid black;
+  border-radius: 2em;
 
+}
+
+#divbutton{
+  margin-top: 3em;
+  text-align: center;
+}
+
+/* ABOUT US */
+p.left{
+  margin-top: 5%;
+  text-align: left;
+  margin-left: 30%;
+  font-size: 1.5em;
+  padding-top:5%;
+}
+div.about{
+  padding-right: 20%;
+}
+img.portrait{
+  margin-top: -50px;
+  margin-bottom: 5%;
+}
+h4{
+  text-align: center;
+  font-size: larger;
+  font-size: 3em;
+  margin-bottom: -20px;
+}
+h2.smaller{
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+/* ROBOT HISTORY */
+img.history{
+  display: block;
+  margin-top: 3%;
+  width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: cover;
+
+}
