@@ -1,7 +1,12 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
 }
-section#frontpage{
+div#frontpage{
+  margin-left: -10%;
+  margin-right: -10%;
+  margin-top: -10%;
+  padding-top: 10%;
     background-image: url(images/longgrayt.jpg);
 }
 /* section#section2{
@@ -104,8 +109,8 @@ h2{
     color: white;
     background-color: black;
     text-align: center;
-    margin-left:-10px;
-    margin-right:-10px;
+    margin-left:-10%;
+    margin-right:-10%;
 }
 a.button{
   text-decoration: none;
@@ -151,9 +156,12 @@ h2.smaller{
 img.history{
   display: block;
   margin-top: 3%;
-  width: 1500px;
-  margin-left: auto;
-  margin-right: auto;
+  width: 120%;
+  margin-left: -10%;
+  margin-right: -10%;
   object-fit: cover;
-
 }
+/* img.history:hover{
+  content: url(images/extendedrobot.png);
+
+} */
