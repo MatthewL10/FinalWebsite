@@ -278,3 +278,8 @@ div.insta{
   align-items: center;
   justify-content: center;
 }
+@media (max-width : 660px) and (max-height: 750px){
+div.robonav{
+  font-size: smaller;
+}
+}
