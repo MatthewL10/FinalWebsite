@@ -55,6 +55,38 @@ div.nav {
   /* background-color: white; */
   z-index: 2;
 }
+div.robotbuttons{
+  margin-top: 5%;
+  text-align: center;
+}
+div.robotbuttons#robopage{
+  margin-top: 100px;
+  text-align: center;
+}
+div.robonav{
+  display: inline;
+ margin-left: 5%;
+ margin-right: 5%;
+  background-color: black;
+  color: white;
+  padding: 1em;
+  font-weight: bolder;
+}
+/* div.nav div.dropdownitem a {
+  display:none;
+  text-decoration: none;
+  color: green;
+  padding: 4px 4px;
+  text-align:left;
+  position: absolute;
+  left: 40%;
+  box-shadow: 1px 1px gray;
+  width:60%;
+  z-index: 6;
+} */
+div.nav:hover div.dropdownitem a {
+  display:block;
+}
 p.mainpage{
   margin-left: 20%;
   margin-right: 20%;
@@ -74,7 +106,9 @@ nav:hover {
 }
 a:hover {
   border: solid white;
+ padding: 5%;
   border-radius: 5px;
+  margin: -5%;
 }
 a:link {
   color: white;
@@ -88,6 +122,13 @@ a:visited {
     text-align: center;
    
 } */
+a.robo:hover{
+border: solid black 5px;
+background-color: white;
+color: black;
+font-weight: bolder;
+padding: 1em;
+}
 .stacktop {
     margin-top: 100px;
     display: block;
@@ -139,18 +180,22 @@ div.about{
 }
 img.portrait{
   margin-top: -50px;
-  margin-bottom: 5%;
+ 
 }
 h4{
   text-align: center;
   font-size: larger;
   font-size: 3em;
   margin-bottom: -20px;
+  margin-top: 10%;
 }
 h2.smaller{
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+section.aboutus{
+  margin-top: 30%;
 }
 /* ROBOT HISTORY */
 img.history{
@@ -161,7 +206,45 @@ img.history{
   margin-right: -10%;
   object-fit: cover;
 }
+img.centered{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid black 5px;
+  
+}
+section.background{
+  background-image: linear-gradient(black, white);
+  padding-top: 1em;
+  padding-bottom: 1em;
+  margin-left: -5%;
+  margin-right: -5%;
+position: absolute;
+
+
+}
+p#whitefont{
+  color: white;
+}
+p.robotinfo{
+  padding-left: 15%;
+  padding-right: 15%;
+  font-size: 1.25em;
+}
+
+
 /* img.history:hover{
   content: url(images/extendedrobot.png);
 
 } */
+/* sponsors */
+section.sponsors{
+background-color: black;
+  /* background-image: url("images/sponsors.png"); */
+  margin-left: -5%;
+  margin-right: -5%;
+}
+img#sponsors{
+  display: block;
+  width: 100%;
+}
