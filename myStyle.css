@@ -186,8 +186,8 @@ h4{
   text-align: center;
   font-size: larger;
   font-size: 3em;
-  margin-bottom: -20px;
-  margin-top: 10%;
+  /* margin-bottom: px; */
+  margin-top: 5%;
 }
 h2.smaller{
   margin-left: auto;
@@ -198,10 +198,13 @@ section.aboutus{
   margin-top: 30%;
 }
 /* ROBOT HISTORY */
+/* div.dontshow{
+display: none;
+} */
 img.history{
   display: block;
   margin-top: 3%;
-  width: 120%;
+  width: 100%;
   margin-left: -10%;
   margin-right: -10%;
   object-fit: cover;
@@ -231,7 +234,11 @@ p.robotinfo{
   padding-right: 15%;
   font-size: 1.25em;
 }
-
+button#enlargeButton{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
 /* img.history:hover{
   content: url(images/extendedrobot.png);
@@ -247,4 +254,27 @@ background-color: black;
 img#sponsors{
   display: block;
   width: 100%;
+}
+
+div.footbar{
+  width: 100%;
+  text-align: center;
+  height:60px;
+  display:flex;
+  flex-direction:row;
+  align-items:center;
+  justify-content:space-around;
+
+}
+/* contact us */
+iframe.centerembed{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+div.insta{
+  margin-top: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
