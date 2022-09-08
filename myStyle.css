@@ -10,7 +10,6 @@ div#frontpage{
     background-image: url(images/longgrayt.jpg);
 }
 /* section#section2{
-
 } */
 img#float{
   float:right;
@@ -73,6 +72,7 @@ div.robonav{
   padding: 1em;
   font-weight: bolder;
   font-size: 1.5vw;
+  width: 105vw;
 }
 /* div.nav div.dropdownitem a {
   display:none;
@@ -220,13 +220,13 @@ img.centered{
   
 }
 section.background{
-  background-image: linear-gradient(black, white);
+  background-image: linear-gradient(rgb(52, 51, 51), white);
   padding-top: 1em;
   padding-bottom: 1em;
   margin-left: -5%;
   margin-right: -5%;
 position: absolute;
-
+width: 105vw;
 
 }
 p#whitefont{
