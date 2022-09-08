@@ -44,6 +44,7 @@ div.navbar {
 }
 div.nav {
   font-family: Arial, Helvetica, sans-serif;
+ 
   color: white;
   display: inline-block;
   line-height: 1;
@@ -65,12 +66,13 @@ div.robotbuttons#robopage{
 }
 div.robonav{
   display: inline;
- margin-left: 5%;
- margin-right: 5%;
+ margin-left: 3%;
+ margin-right: 3%;
   background-color: black;
   color: white;
   padding: 1em;
   font-weight: bolder;
+  font-size: 1.5vw;
 }
 /* div.nav div.dropdownitem a {
   display:none;
@@ -169,7 +171,7 @@ a.button{
 
 /* ABOUT US */
 p.left{
-  margin-top: 5%;
+  margin-top: 3%;
   text-align: left;
   margin-left: 30%;
   font-size: 1.5em;
@@ -195,12 +197,15 @@ h2.smaller{
   width: 50%;
 }
 section.aboutus{
-  margin-top: 30%;
+  margin-top: 25%;
 }
 /* ROBOT HISTORY */
 /* div.dontshow{
 display: none;
 } */
+div#cad{
+height: 50%;
+}
 img.history{
   display: block;
   margin-top: 3%;
