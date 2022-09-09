@@ -402,5 +402,8 @@ img#sponsors{
 body.sponsorspage{
   background-color: black;
 }
-
+h2.seasontitle {
+  width: 105vw;
+  margin-left: 0;
+}
 }
