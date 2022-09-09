@@ -295,7 +295,9 @@ div.robonav{
 img.logo{
   display: none;
 }
-
+div#frontpage{
+  width: 108vw;
+}
 }
 @media (max-width : 900px){
   img.logo{
