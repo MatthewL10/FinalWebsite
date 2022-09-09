@@ -94,6 +94,7 @@ p.mainpage{
 p.offset{
   text-align: left;
   margin-left: 10%;
+  margin-right: 10%;
 }
 
 img#float{
@@ -294,7 +295,7 @@ img.logo{
   display: none;
 }
 div#frontpage{
-  width: 105vw;
+  width: 107vw;
 }
 header{
   width: 100vw;
@@ -302,6 +303,11 @@ header{
 h2{
   width: 100vw;
 }
+h2.front {
+  width: 100vw;
+  margin-left: 7%;
+}
+
 }
 @media (max-width : 900px){
   img.logo{
