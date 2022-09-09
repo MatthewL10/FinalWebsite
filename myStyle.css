@@ -311,7 +311,9 @@ h2.front {
 div.footbad{
 display: none;
 }
-
+h2#lower{
+  width: 107vw;
+}
 }
 @media (max-width : 900px){
   img.logo{
