@@ -320,9 +320,11 @@ h4{
 div.insta{
   margin-top: 10%;
   width: 80vw;
+  display: none;
 }
 iframe.centerembed{
  width: 80vw;
+ margin-bottom: 10%;
 }
 }
 @media (max-width : 900px){
