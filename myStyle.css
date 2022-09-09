@@ -326,6 +326,12 @@ iframe.centerembed{
  width: 80vw;
  margin-bottom: 10%;
 }
+img#sponsors{
+  margin-top: 20%;
+}
+body.sponsors{
+  background-color: black;
+}
 }
 @media (max-width : 900px){
   img.logo{
