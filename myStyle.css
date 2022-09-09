@@ -336,6 +336,9 @@ img#sponsors{
 body.sponsorspage{
   background-color: black;
 }
+img.centered{
+width: 60vw;
+}
 }
 @media (max-width : 900px){
   img.logo{
