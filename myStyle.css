@@ -299,7 +299,9 @@ div#frontpage{
 header{
   width: 100vw;
 }
-
+h2{
+  width: 100vw;
+}
 }
 @media (max-width : 900px){
   img.logo{
