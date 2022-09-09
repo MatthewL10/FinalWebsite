@@ -378,10 +378,10 @@ div.footbar{
 display: none;
 }
 h2#lower{
-  width: 107vw;
+  width: 109vw;
 }
 h2.robottitle#lower{
-  margin-top: 30%;
+  margin-top: 15%;
   font-size: 1.2em;
 }
 h4{
