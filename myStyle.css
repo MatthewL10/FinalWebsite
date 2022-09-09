@@ -314,6 +314,10 @@ display: none;
 h2#lower{
   width: 107vw;
 }
+h2.robottitle#lower{
+  margin-top: 30%;
+  font-size: 1.2em;
+}
 h4{
   font-size: 2em;
 }
