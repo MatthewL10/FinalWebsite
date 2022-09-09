@@ -303,5 +303,6 @@ img.logo{
   }
   div.navbar{
     font-size: 2vw;
+    width: 100vw;
   }
 }
