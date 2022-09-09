@@ -14,6 +14,7 @@ div#frontpage{
 img#float{
   float:right;
   margin-right: 1em;
+  margin: 1em;
 }
 h2#lower{
   margin-top: 4em;
@@ -301,11 +302,14 @@ header{
   width: 100vw;
 }
 h2{
-  width: 100vw;
+  width: 10vw;
 }
 h2.front {
   width: 100vw;
   margin-left: 7%;
+}
+div.footbad{
+display: none;
 }
 
 }
