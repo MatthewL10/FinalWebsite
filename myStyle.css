@@ -19,7 +19,6 @@ h2#lower{
   margin-top: 4em;
 }
 header {
-  width: 101%;
   height: 80px;
   background-color: black;
   text-align: center;
@@ -29,8 +28,7 @@ header {
   overflow: hidden;
   z-index: 2;
   margin-left:-10px;
-  margin-right:-10px;
-  
+  width: 105vw;
 }
 div.navbar {
   position: absolute;
@@ -296,8 +294,12 @@ img.logo{
   display: none;
 }
 div#frontpage{
-  width: 108vw;
+  width: 105vw;
 }
+header{
+  width: 100vw;
+}
+
 }
 @media (max-width : 900px){
   img.logo{
