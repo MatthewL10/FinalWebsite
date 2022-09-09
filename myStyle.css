@@ -217,7 +217,7 @@ img.centered{
   margin-left: auto;
   margin-right: auto;
   border: solid black 5px;
-  
+  width: 50vw;
 }
 section.background{
   background-image: linear-gradient(rgb(52, 51, 51), white);
@@ -336,9 +336,7 @@ img#sponsors{
 body.sponsorspage{
   background-color: black;
 }
-img.centered{
-width: 60vw;
-}
+
 }
 @media (max-width : 900px){
   img.logo{
