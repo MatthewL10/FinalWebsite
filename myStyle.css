@@ -244,6 +244,9 @@ button#enlargeButton{
   margin-left: auto;
   margin-right: auto;
 }
+h2.seasontitle{
+  margin-top: 5%;
+}
 
 /* img.history:hover{
   content: url(images/extendedrobot.png);
